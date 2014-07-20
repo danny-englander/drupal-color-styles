@@ -4,7 +4,7 @@
  * Implements hook_menu().
  */
 function color_styles_menu() {
-
+  // Path to the admin settings page.
   $items['admin/config/administration/color-styles/color-styles-settings'] = array(
     'title' => 'Color Styles Settings',
     'access arguments' => array('access administration pages'),

@@ -4,5 +4,7 @@ core = 7.x
 dependencies[] = ctools
 dependencies[] = panels
 dependencies[] = page_manager
+dependencies[] = jquery_colorpicker
+dependencies[] = libraries
 package = Development
 configure = admin/config/administration/color-styles/color-styles-settings

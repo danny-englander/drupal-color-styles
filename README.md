@@ -1,4 +1,4 @@
-#Drupal Color Styles
+#Drupal Color Styles Example
 
 Color Styles is a custom Drupal module with an admin settings page and ctools panels plugin using jquery colorpicker. This module is really just an example to show what's possible with the jquery colorpicker FAPI element and leveraging that in a ctools custom panels pane plugin.
 

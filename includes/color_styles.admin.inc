@@ -26,7 +26,7 @@ function color_styles_admin_settings() {
   '#markup' => '<div class="color-wrapper">',
   );
 
-  // Color pickers.
+  // Color picker fapi element for title color.
   $form['message']['colors']['title_color'] = array(
     '#type' => 'jquery_colorpicker',
     '#title' => t('Title color'),
@@ -34,6 +34,7 @@ function color_styles_admin_settings() {
     '#description' => t('Set the title color'),
   );
 
+  // Color picker fapi element for title bg.
   $form['message']['colors']['title_bg'] = array(
     '#type' => 'jquery_colorpicker',
     '#title' => t('Title background'),

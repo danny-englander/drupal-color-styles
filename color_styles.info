@@ -1,0 +1,8 @@
+name = Color Styles
+description = Custom module for Ctools custom plugins
+core = 7.x
+dependencies[] = ctools
+dependencies[] = panels
+dependencies[] = page_manager
+package = Development
+configure = admin/config/administration/color-styles/color-styles-settings

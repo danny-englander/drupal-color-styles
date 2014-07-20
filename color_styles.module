@@ -1,0 +1,30 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ */
+function color_styles_menu() {
+
+  $items['admin/config/administration/color-styles/color-styles-settings'] = array(
+    'title' => 'Color Styles Settings',
+    'access arguments' => array('access administration pages'),
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('color_styles_admin_settings'),
+    'file' => 'color_styles.admin.inc',
+    'file path' => drupal_get_path('module', 'color_styles') . '/includes',
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function color_styles_ctools_plugin_directory($owner, $plugin_type) {
+  // Call the various ctools plugin types.
+  $modules = array('panels', 'ctools');
+  if (in_array($owner, $modules) && !empty($plugin_type) && ($plugin_type == 'content_types' || $plugin_type == 'access' || $plugin_type == 'layouts')) {
+    return 'plugins/' . $plugin_type;
+  }
+
+}

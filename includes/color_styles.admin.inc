@@ -2,7 +2,7 @@
 
 
 /**
- * Form callback for the p2p global admin settings.
+ * Form callback for the global admin settings.
  */
 function color_styles_admin_settings() {
   $form = array();

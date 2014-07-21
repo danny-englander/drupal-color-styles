@@ -23,7 +23,7 @@ function color_styles_admin_settings() {
 
   // Colors wrapper.
   $form['message']['colors']['wrapper_open'] = array(
-  '#markup' => '<div class="color-wrapper">',
+    '#markup' => '<div class="color-wrapper">',
   );
 
   // Color picker fapi element for title color.

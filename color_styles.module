@@ -35,14 +35,14 @@ function color_styles_page_alter($page) {
   // Define the module path.
   $mod_path = drupal_get_path('module', 'color_styles');
 
-      $color_styles_css = array(
-        '#attached' => array(
-          'css' => array(
-            $mod_path . '/css/color-styles.css' => array(
-              'group' => CSS_SYSTEM,
-            ),
-          ),
+  $color_styles_css = array(
+    '#attached' => array(
+      'css' => array(
+        $mod_path . '/css/color-styles.css' => array(
+          'group' => CSS_SYSTEM,
         ),
-      );
-      drupal_render($color_styles_css);
+      ),
+    ),
+  );
+  drupal_render($color_styles_css);
 }

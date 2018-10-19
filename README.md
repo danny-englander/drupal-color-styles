@@ -39,7 +39,7 @@ To use this module, you'll need a basic Drupal 7 site with the following contrib
 
 To get up and running:
 
-1. ``` git clone git@github.com:highrockmedia/drupal-color-styles.git``` and put this in your /sites/all/modules or /sites/all/modules/custom.
+1. ``` git clone git@github.com:danny-englander/drupal-color-styles.git``` and put this in your /sites/all/modules or /sites/all/modules/custom.
 2. ```drush dl ctools, panels, jquery_colorpicker, libraries```
 3. Get the colorpicker library and follow the install instructions from the jquery_colorpicker drupal module's readme.
 4. ```drush en color_styles```

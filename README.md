@@ -18,7 +18,7 @@ The colorpicker FAPI element looks like this:
 Then in the plugin, we can retrieve that info and render it in output. e.g.:
 
 
-```
+````php
 $title_color = variable_get('color_styles_title_color');
 ```
 
